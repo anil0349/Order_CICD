@@ -19,7 +19,7 @@
 		"@sap/approuter": "6.5.0"
 	},
 	"scripts": {
-		"start": "node node_modules/@sap/approuter/approuter.js",
-		"ci-test": "karma start frontend-unit-tests/karma.conf.js --watch=false --single-run=true"
+		"start": "node node_modules/@sap/approuter/approuter.js"
+	//	"ci-test": "karma start frontend-unit-tests/karma.conf.js --watch=false --single-run=true"
 	}
 }
